@@ -183,7 +183,6 @@ const orderSchema = new mongoose.Schema(
     }
 );
 
-orderSchema.index({ orderNumber: 1 }, { unique: true });
 orderSchema.index({ user: 1 });
 orderSchema.index({ orderStatus: 1 });
 orderSchema.index({ createdAt: -1 });
