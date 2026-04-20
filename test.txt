@@ -1,0 +1,7 @@
+PORT=5000
+MONGODB_URI=mongodb://admin:amma1508@archidtech.in:27017/aurofit?authSource=admin
+CLIENT_URL=http://localhost:5173
+NODE_ENV=development
+
+JWT_SECRET=b5e2d1c9f4a8b7e6c3d0f1a9b4e5c8d2f7a1b6e9c3d8f0a5b2e7c4d1f9a6b3e890
+JWT_EXPIRES_IN=180d
